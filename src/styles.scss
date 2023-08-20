@@ -1,0 +1,43 @@
+// .iti {
+//     width: 100%;
+
+//     .flag-container {
+//       right: 0 !important;
+//     }
+
+//     .iti--allow-dropdown input {
+//       width: 100%;
+//     }
+
+//     .country-dropdown {
+//       width: 100% !important;
+//     }
+
+//     .country-list {
+//       width: 100%;
+//     }
+
+//     /* To prevent name overflowing for long countries and small widths: */
+//     .country-name {
+//       max-width: 100%;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//     }
+//   }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intl-tel-input {
+  width: 100%;
+
+  input {
+    width: 100%;
+    outline: 0;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 8px;
+    height: 40px;
+  }
+}
